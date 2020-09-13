@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Formation of sentences.</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"sentences":[' +
+'{"John","ate","an","apple","before","afternoon" },' +
+'{"before","afternoon","John","ate","an","apple"},' +
+'{"John","before","afternoon","ate","an","apple"}]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.sentences[0]" " + obj.sentences[1]" " + obj.sentences[2]" " + obj.sentences[3]" " + obj.sentences[4]" " + obj.sentences[5];
+</script>
+<form action="/action_page.php">
+ <br> <input type="Re-form the sentence" value="Re-form the sentence"></br></br>
+</form> 
+<form action="/action_page.php">
+  <input type="Check the correctness of the sentence" value="Check the correctness of the sentence">
+</form> 
+
+</body>
+</html>
