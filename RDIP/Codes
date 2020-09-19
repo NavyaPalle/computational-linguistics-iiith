@@ -21,7 +21,11 @@ obj.sentences[0]" " + obj.sentences[1]" " + obj.sentences[2]" " + obj.sentences[
 </form> 
 <form action="/action_page.php">
   <input type="Check the correctness of the sentence" value="Check the correctness of the sentence">
-</form> 
+</form>
+<form action="/action_page.php">
+  <input type="Wrong Answer" value="Wrong Answer">
+</form>
+
 
 </body>
 </html>
